@@ -8,7 +8,8 @@ public class ServiceDemoImpl implements ServiceDemo {
 
     @Override
     public String hello(String name) {
-        return "hello " + name + ", from dubbo service";
+        System.out.println("接收到" + name + "的请求, 进行处理...");
+        return "hello " + name + "--from dubbo service";
     }
 
 }

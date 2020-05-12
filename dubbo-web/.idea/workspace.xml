@@ -1,12 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="dubbo-web:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6212614e-f17d-4992-8468-c31abe07a160" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo_service/src/main/resources/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_service/src/main/resources/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycomp/controller/ControllerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycomp/service/ServiceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/library/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mycomp/controller/ControllerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mycomp/service/ServiceDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/classes/applicationContext-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/classes/com/mycomp/controller/ControllerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/classes/com/mycomp/service/ServiceDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/classes/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/aspectjweaver-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/curator-client-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/curator-framework-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/dubbo-2.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/guava-20.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/javassist-3.11.0.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/jline-0.9.94.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/netty-3.2.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/netty-3.7.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/netty-all-4.1.32.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/slf4j-api-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/spring-aop-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/spring-aspects-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/spring-beans-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/spring-context-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/spring-context-support-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/spring-core-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/spring-expression-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/spring-jcl-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/spring-jdbc-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/spring-jms-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/spring-messaging-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/spring-tx-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/spring-web-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/spring-webmvc-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/zkclient-0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/lib/zookeeper-3.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/dubbo_web/static/library/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_service/src/main/java/com/mycomp/service/ServiceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_service/src/main/java/com/mycomp/service/ServiceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_service/src/main/java/com/mycomp/service/impl/ServiceDemoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_service/src/main/java/com/mycomp/service/impl/ServiceDemoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_service/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_service/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_service/target/classes/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_service/target/classes/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_service/target/classes/com/mycomp/service/impl/ServiceDemoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_service/target/classes/com/mycomp/service/impl/ServiceDemoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_service/target/dubbo_service/WEB-INF/classes/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_service/target/dubbo_service/WEB-INF/classes/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_service/target/dubbo_service/WEB-INF/classes/com/mycomp/service/impl/ServiceDemoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_service/target/dubbo_service/WEB-INF/classes/com/mycomp/service/impl/ServiceDemoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_service/target/dubbo_service/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_service/target/dubbo_service/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_service/target/dubbo_service/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo_service/target/dubbo_service/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +73,13 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -24,6 +88,13 @@
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -51,7 +122,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/mycomp" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -66,6 +137,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEA_workspace\Learn_Dubbo\dubbo-web\src\main\java\com\mycomp" />
+      <recent name="H:\IDEA_workspace\Learn_Dubbo\dubbo-web\src\main\webapp\static\library" />
       <recent name="H:\IDEA_workspace\Learn_Dubbo\dubbo-web\src\main\resources" />
       <recent name="H:\IDEA_workspace\Learn_Dubbo\dubbo-web\src\main\webapp\WEB-INF" />
       <recent name="H:\IDEA_workspace\Learn_Dubbo\dubbo-web" />
@@ -176,13 +249,133 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dubbo-web" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="dubbo-web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+        <file path="%IDEA_RUN:TOMCAT_HOME%/webapps">
+          <settings>
+            <option name="CONTEXT_PATH" value="/default" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_30_dubbo-web" />
+        <option name="HTTP_PORT" value="8082" />
+        <option name="JNDI_PORT" value="1091" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55307" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="64049" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="dubbo-web:war exploded" />
+        </option>
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.1352459" />
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -199,7 +392,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589264157115</updated>
-      <workItem from="1589264158331" duration="593000" />
+      <workItem from="1589264158331" duration="1542000" />
+      <workItem from="1589265719054" duration="3091000" />
+      <workItem from="1589268831381" duration="3000" />
+      <workItem from="1589268836615" duration="4000" />
+      <workItem from="1589268858803" duration="4000" />
     </task>
     <servers />
   </component>
@@ -207,22 +404,42 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1589264168456">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589266630752">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589264168456" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1589264168456">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589266630752" />
+    <state width="1265" height="286" key="GridCell.Tab.0.bottom" timestamp="1589268813005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589264168456" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1589264168456">
+    <state width="1265" height="286" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589268813005" />
+    <state width="1265" height="286" key="GridCell.Tab.0.center" timestamp="1589268813005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589264168456" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1589264168456">
+    <state width="1265" height="286" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589268813005" />
+    <state width="1265" height="286" key="GridCell.Tab.0.left" timestamp="1589268813005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589264168456" />
+    <state width="1265" height="286" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589268813005" />
+    <state width="1265" height="286" key="GridCell.Tab.0.right" timestamp="1589268813005">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1265" height="286" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589268813005" />
+    <state width="1265" height="286" key="GridCell.Tab.1.bottom" timestamp="1589268813005">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1265" height="286" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589268813005" />
+    <state width="1265" height="286" key="GridCell.Tab.1.center" timestamp="1589268813005">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1265" height="286" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589268813005" />
+    <state width="1265" height="286" key="GridCell.Tab.1.left" timestamp="1589268813005">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1265" height="286" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589268813005" />
+    <state width="1265" height="286" key="GridCell.Tab.1.right" timestamp="1589268813005">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1265" height="286" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589268813005" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1589264751532">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

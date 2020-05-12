@@ -10,7 +10,7 @@
        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!--  给当前项目服务起个名字 -->
+    <!-- 给当前项目服务起个名字 -->
     <dubbo:application name="dubboxdemo-service"/>
     <!-- 配置连接zookeeper的IP和端口 -->
     <dubbo:registry address="zookeeper://192.168.70.3:2181"/>

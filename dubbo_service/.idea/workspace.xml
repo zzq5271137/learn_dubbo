@@ -7,11 +7,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23402847-2ab7-4234-a79f-afb7f2ec4ec4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/resources/applicationContext-web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/java/com/mycomp/controller/ControllerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/java/com/mycomp/service/ServiceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/webapp/static/library/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/classes/applicationContext-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/classes/com/mycomp/controller/ControllerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/classes/com/mycomp/service/ServiceDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/classes/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/classes/applicationContext-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/classes/com/mycomp/controller/ControllerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/classes/com/mycomp/service/ServiceDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/classes/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/aspectjweaver-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/curator-client-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/curator-framework-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/dubbo-2.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/guava-20.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/javassist-3.11.0.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/jline-0.9.94.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/netty-3.2.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/netty-3.7.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/netty-all-4.1.32.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/slf4j-api-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-aop-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-aspects-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-beans-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-context-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-context-support-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-core-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-expression-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-jcl-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-jdbc-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-jms-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-messaging-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-tx-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-web-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-webmvc-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/zkclient-0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/zookeeper-3.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/static/library/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-web/dubbo-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-web/dubbo-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-web/src/main/resources/applicationContext-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-web/src/main/resources/applicationContext-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-web/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycomp/service/ServiceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycomp/service/ServiceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycomp/service/impl/ServiceDemoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycomp/service/impl/ServiceDemoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycomp/service/impl/ServiceDemoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycomp/service/impl/ServiceDemoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/classes/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/classes/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/classes/com/mycomp/service/impl/ServiceDemoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/classes/com/mycomp/service/impl/ServiceDemoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dubbo_service/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/dubbo_service/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +120,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -223,6 +276,7 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_30_dubbo_service" />
         <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1090" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
@@ -352,18 +406,25 @@
       <workItem from="1589250654856" duration="666000" />
       <workItem from="1589261478947" duration="1800000" />
       <workItem from="1589263452106" duration="638000" />
-      <workItem from="1589264342302" duration="428000" />
+      <workItem from="1589264342302" duration="1363000" />
+      <workItem from="1589265711925" duration="2807000" />
+      <workItem from="1589268816821" duration="12000" />
+      <workItem from="1589268842774" duration="4000" />
+      <workItem from="1589268854633" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589263275538">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589266514324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589263275538" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589266514324" />
     <state x="455" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589197881015">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -372,38 +433,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589198143537" />
-    <state width="1291" height="252" key="GridCell.Tab.0.bottom" timestamp="1589263282375">
+    <state width="1291" height="299" key="GridCell.Tab.0.bottom" timestamp="1589268809632">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1291" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589263282375" />
-    <state width="1291" height="252" key="GridCell.Tab.0.center" timestamp="1589263282375">
+    <state width="1291" height="299" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589268809632" />
+    <state width="1291" height="299" key="GridCell.Tab.0.center" timestamp="1589268809632">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1291" height="252" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589263282375" />
-    <state width="1291" height="252" key="GridCell.Tab.0.left" timestamp="1589263282375">
+    <state width="1291" height="299" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589268809632" />
+    <state width="1291" height="299" key="GridCell.Tab.0.left" timestamp="1589268809632">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1291" height="252" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589263282375" />
-    <state width="1291" height="252" key="GridCell.Tab.0.right" timestamp="1589263282375">
+    <state width="1291" height="299" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589268809632" />
+    <state width="1291" height="299" key="GridCell.Tab.0.right" timestamp="1589268809632">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1291" height="252" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589263282375" />
-    <state width="1291" height="252" key="GridCell.Tab.1.bottom" timestamp="1589263282376">
+    <state width="1291" height="299" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589268809632" />
+    <state width="1291" height="299" key="GridCell.Tab.1.bottom" timestamp="1589268809633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1291" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589263282376" />
-    <state width="1291" height="252" key="GridCell.Tab.1.center" timestamp="1589263282375">
+    <state width="1291" height="299" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589268809633" />
+    <state width="1291" height="299" key="GridCell.Tab.1.center" timestamp="1589268809632">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1291" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589263282375" />
-    <state width="1291" height="252" key="GridCell.Tab.1.left" timestamp="1589263282375">
+    <state width="1291" height="299" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589268809632" />
+    <state width="1291" height="299" key="GridCell.Tab.1.left" timestamp="1589268809632">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1291" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589263282375" />
-    <state width="1291" height="252" key="GridCell.Tab.1.right" timestamp="1589263282376">
+    <state width="1291" height="299" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589268809632" />
+    <state width="1291" height="299" key="GridCell.Tab.1.right" timestamp="1589268809633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1291" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589263282376" />
+    <state width="1291" height="299" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589268809633" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1589262244547">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
