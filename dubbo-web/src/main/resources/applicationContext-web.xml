@@ -10,10 +10,23 @@
        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!-- 给当前项目服务起个名字 -->
-    <dubbo:application name="dubboxdemo-service"/>
+    <!-- 注解扫描 -->
+    <context:component-scan base-package="com.mycomp"/>
+
+    <!-- 注解驱动 -->
+    <mvc:annotation-driven>
+        <!-- 将传输的字符串强制转换成utf-8编码, 防止中文乱码 -->
+        <mvc:message-converters register-defaults="false">
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <constructor-arg value="UTF-8"/>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+
+    <!-- 给当前项目服务起个名 -->
+    <dubbo:application name="dubboxdemo-web"/>
     <!-- 配置连接zookeeper的IP和端口 -->
     <dubbo:registry address="zookeeper://192.168.70.3:2181"/>
-    <!-- 配置包扫描, 在这个包下面的实现类中使用@Service注解才会生效 -->
-    <dubbo:annotation package="com.mycomp.service"/>
+    <!-- 配置包扫描, 在这个包下面才可以注入service -->
+    <dubbo:annotation package="com.mycomp.controller"/>
 </beans>
