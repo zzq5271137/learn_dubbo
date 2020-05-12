@@ -7,8 +7,8 @@ import com.mycomp.service.ServiceDemo;
 public class ServiceDemoImpl implements ServiceDemo {
 
     @Override
-    public String getName() {
-        return "hello from dubbo service";
+    public String hello(String name) {
+        return "hello " + name + ", from dubbo service";
     }
 
 }

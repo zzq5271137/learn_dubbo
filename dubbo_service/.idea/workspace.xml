@@ -6,7 +6,26 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23402847-2ab7-4234-a79f-afb7f2ec4ec4" name="Default Changelist" comment="" />
+    <list default="true" id="23402847-2ab7-4234-a79f-afb7f2ec4ec4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../dubbo_consumer/dubbo_consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo_consumer/src/main/resources/applicationContext-consumer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo_consumer/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo_consumer/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo_consumer/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycomp/service/ServiceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycomp/service/ServiceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycomp/service/impl/ServiceDemoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycomp/service/impl/ServiceDemoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycomp/service/ServiceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycomp/service/ServiceDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycomp/service/impl/ServiceDemoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycomp/service/impl/ServiceDemoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/classes/com/mycomp/service/ServiceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/classes/com/mycomp/service/ServiceDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/classes/com/mycomp/service/impl/ServiceDemoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/classes/com/mycomp/service/impl/ServiceDemoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/lib/slf4j-api-1.7.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/lib/slf4j-log4j12-1.7.6.jar" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +72,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1blCVbPHYGOSzUFnrZ0vZpOnZO8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -341,6 +361,8 @@
       <workItem from="1589207551935" duration="735000" />
       <workItem from="1589208825244" duration="601000" />
       <workItem from="1589250654856" duration="666000" />
+      <workItem from="1589261478947" duration="1800000" />
+      <workItem from="1589263452106" duration="638000" />
     </task>
     <servers />
   </component>
@@ -348,10 +370,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589199048115">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589263275538">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589199048115" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589263275538" />
     <state x="455" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589197881015">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -360,41 +382,41 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589198143537" />
-    <state width="1291" height="138" key="GridCell.Tab.0.bottom" timestamp="1589205560236">
+    <state width="1291" height="252" key="GridCell.Tab.0.bottom" timestamp="1589263282375">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1291" height="138" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589205560236" />
-    <state width="1291" height="138" key="GridCell.Tab.0.center" timestamp="1589205560236">
+    <state width="1291" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589263282375" />
+    <state width="1291" height="252" key="GridCell.Tab.0.center" timestamp="1589263282375">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1291" height="138" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589205560236" />
-    <state width="1291" height="138" key="GridCell.Tab.0.left" timestamp="1589205560236">
+    <state width="1291" height="252" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589263282375" />
+    <state width="1291" height="252" key="GridCell.Tab.0.left" timestamp="1589263282375">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1291" height="138" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589205560236" />
-    <state width="1291" height="138" key="GridCell.Tab.0.right" timestamp="1589205560236">
+    <state width="1291" height="252" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589263282375" />
+    <state width="1291" height="252" key="GridCell.Tab.0.right" timestamp="1589263282375">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1291" height="138" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589205560236" />
-    <state width="1291" height="138" key="GridCell.Tab.1.bottom" timestamp="1589205560236">
+    <state width="1291" height="252" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589263282375" />
+    <state width="1291" height="252" key="GridCell.Tab.1.bottom" timestamp="1589263282376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1291" height="138" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589205560236" />
-    <state width="1291" height="138" key="GridCell.Tab.1.center" timestamp="1589205560236">
+    <state width="1291" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589263282376" />
+    <state width="1291" height="252" key="GridCell.Tab.1.center" timestamp="1589263282375">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1291" height="138" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589205560236" />
-    <state width="1291" height="138" key="GridCell.Tab.1.left" timestamp="1589205560236">
+    <state width="1291" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589263282375" />
+    <state width="1291" height="252" key="GridCell.Tab.1.left" timestamp="1589263282375">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1291" height="138" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589205560236" />
-    <state width="1291" height="138" key="GridCell.Tab.1.right" timestamp="1589205560236">
+    <state width="1291" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589263282375" />
+    <state width="1291" height="252" key="GridCell.Tab.1.right" timestamp="1589263282376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1291" height="138" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589205560236" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1589199821529">
+    <state width="1291" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589263282376" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1589262244547">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589199821529" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589262244547" />
   </component>
 </project>

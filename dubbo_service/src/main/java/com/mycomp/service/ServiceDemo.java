@@ -2,6 +2,6 @@ package com.mycomp.service;
 
 public interface ServiceDemo {
 
-    String getName();
+    String hello(String name);
 
 }
