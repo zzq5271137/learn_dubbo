@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6212614e-f17d-4992-8468-c31abe07a160" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-web.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6212614e-f17d-4992-8468-c31abe07a160" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -342,6 +340,8 @@
       <workItem from="1589268836615" duration="4000" />
       <workItem from="1589268858803" duration="4000" />
       <workItem from="1589446701800" duration="44000" />
+      <workItem from="1589446791302" duration="9000" />
+      <workItem from="1589446816190" duration="7000" />
     </task>
     <servers />
   </component>

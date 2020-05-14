@@ -6,65 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23402847-2ab7-4234-a79f-afb7f2ec4ec4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/java/com/mycomp/controller/ControllerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/java/com/mycomp/service/ServiceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/webapp/static/library/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/classes/applicationContext-web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/classes/com/mycomp/controller/ControllerDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/classes/com/mycomp/service/ServiceDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/classes/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/classes/applicationContext-web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/classes/com/mycomp/controller/ControllerDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/classes/com/mycomp/service/ServiceDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/classes/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/aspectjweaver-1.9.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/curator-client-4.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/curator-framework-4.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/dubbo-2.6.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/guava-20.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/javassist-3.11.0.GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/jline-0.9.94.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/netty-3.2.5.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/netty-3.7.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/netty-all-4.1.32.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/slf4j-api-1.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-aop-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-aspects-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-beans-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-context-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-context-support-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-core-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-expression-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-jcl-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-jdbc-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-jms-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-messaging-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-tx-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-web-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/spring-webmvc-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/zkclient-0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/lib/zookeeper-3.4.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/target/dubbo_web/static/library/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-web/dubbo-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-web/dubbo-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-web/src/main/resources/applicationContext-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-web/src/main/resources/applicationContext-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-web/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycomp/service/ServiceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycomp/service/ServiceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycomp/service/impl/ServiceDemoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycomp/service/impl/ServiceDemoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycomp/service/impl/ServiceDemoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycomp/service/impl/ServiceDemoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/classes/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/classes/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/classes/com/mycomp/service/impl/ServiceDemoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/classes/com/mycomp/service/impl/ServiceDemoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/dubbo_service/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dubbo_service/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/dubbo_service/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="23402847-2ab7-4234-a79f-afb7f2ec4ec4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -411,6 +353,8 @@
       <workItem from="1589268816821" duration="12000" />
       <workItem from="1589268842774" duration="4000" />
       <workItem from="1589268854633" duration="2000" />
+      <workItem from="1589446782454" duration="7000" />
+      <workItem from="1589446802077" duration="12000" />
     </task>
     <servers />
   </component>
