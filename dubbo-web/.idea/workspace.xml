@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6212614e-f17d-4992-8468-c31abe07a160" name="Default Changelist" comment="" />
+    <list default="true" id="6212614e-f17d-4992-8468-c31abe07a160" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo_service/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/classes/applicationContext-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/dubbo_web/WEB-INF/classes/applicationContext-web.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +69,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/mycomp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -79,9 +84,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEA_workspace\Learn_Dubbo\dubbo-web\src\main\resources" />
       <recent name="H:\IDEA_workspace\Learn_Dubbo\dubbo-web\src\main\java\com\mycomp" />
       <recent name="H:\IDEA_workspace\Learn_Dubbo\dubbo-web\src\main\webapp\static\library" />
-      <recent name="H:\IDEA_workspace\Learn_Dubbo\dubbo-web\src\main\resources" />
       <recent name="H:\IDEA_workspace\Learn_Dubbo\dubbo-web\src\main\webapp\WEB-INF" />
       <recent name="H:\IDEA_workspace\Learn_Dubbo\dubbo-web" />
     </key>
@@ -310,7 +315,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.1352459" />
+          <option name="contentProportion" value="0.094945356" />
           <treeState>
             <expand>
               <path>
@@ -342,6 +347,8 @@
       <workItem from="1589446701800" duration="44000" />
       <workItem from="1589446791302" duration="9000" />
       <workItem from="1589446816190" duration="7000" />
+      <workItem from="1589457335182" duration="540000" />
+      <workItem from="1589457885218" duration="3000" />
     </task>
     <servers />
   </component>
@@ -353,38 +360,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589266630752" />
-    <state width="1265" height="286" key="GridCell.Tab.0.bottom" timestamp="1589268813005">
+    <state width="1324" height="309" key="GridCell.Tab.0.bottom" timestamp="1589457874716">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1265" height="286" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589268813005" />
-    <state width="1265" height="286" key="GridCell.Tab.0.center" timestamp="1589268813005">
+    <state width="1324" height="309" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589457874716" />
+    <state width="1324" height="309" key="GridCell.Tab.0.center" timestamp="1589457874716">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1265" height="286" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589268813005" />
-    <state width="1265" height="286" key="GridCell.Tab.0.left" timestamp="1589268813005">
+    <state width="1324" height="309" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589457874716" />
+    <state width="1324" height="309" key="GridCell.Tab.0.left" timestamp="1589457874716">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1265" height="286" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589268813005" />
-    <state width="1265" height="286" key="GridCell.Tab.0.right" timestamp="1589268813005">
+    <state width="1324" height="309" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589457874716" />
+    <state width="1324" height="309" key="GridCell.Tab.0.right" timestamp="1589457874716">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1265" height="286" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589268813005" />
-    <state width="1265" height="286" key="GridCell.Tab.1.bottom" timestamp="1589268813005">
+    <state width="1324" height="309" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589457874716" />
+    <state width="1324" height="309" key="GridCell.Tab.1.bottom" timestamp="1589457874716">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1265" height="286" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589268813005" />
-    <state width="1265" height="286" key="GridCell.Tab.1.center" timestamp="1589268813005">
+    <state width="1324" height="309" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589457874716" />
+    <state width="1324" height="309" key="GridCell.Tab.1.center" timestamp="1589457874716">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1265" height="286" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589268813005" />
-    <state width="1265" height="286" key="GridCell.Tab.1.left" timestamp="1589268813005">
+    <state width="1324" height="309" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589457874716" />
+    <state width="1324" height="309" key="GridCell.Tab.1.left" timestamp="1589457874716">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1265" height="286" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589268813005" />
-    <state width="1265" height="286" key="GridCell.Tab.1.right" timestamp="1589268813005">
+    <state width="1324" height="309" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589457874716" />
+    <state width="1324" height="309" key="GridCell.Tab.1.right" timestamp="1589457874716">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1265" height="286" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589268813005" />
+    <state width="1324" height="309" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589457874716" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1589264751532">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
