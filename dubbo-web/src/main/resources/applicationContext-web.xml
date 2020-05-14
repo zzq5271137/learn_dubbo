@@ -26,7 +26,7 @@
         </mvc:message-converters>
     </mvc:annotation-driven>
 
-    <!-- 给当前项目服务起个名 -->
+    <!-- 给当前项目服务起个名字 -->
     <dubbo:application name="dubboxdemo-web"/>
     <!-- 配置连接zookeeper的IP和端口 -->
     <dubbo:registry address="zookeeper://192.168.70.3:2181"/>
